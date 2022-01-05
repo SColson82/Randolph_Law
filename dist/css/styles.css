@@ -603,7 +603,7 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 248px;
 }
 
 .img-thumbnail {
@@ -680,6 +680,7 @@ progress {
 }
 .row > * {
   flex-shrink: 0;
+
   width: 100%;
   max-width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
@@ -11465,7 +11466,7 @@ header.masthead .masthead-heading {
   display: block;
   margin: 0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {  
   display: flex;
   position: absolute;
   width: 100%;
