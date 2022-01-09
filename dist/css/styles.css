@@ -39,7 +39,7 @@
   --bs-info: #0dcaf0;
   --bs-warning: #42c30df5;
   --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
+  --bs-light: #f8faf8;
   --bs-dark: #212529;
   --bs-primary-rgb: 255, 200, 0;
   --bs-secondary-rgb: 108, 117, 125;
@@ -47,7 +47,7 @@
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 200, 0;
   --bs-danger-rgb: 220, 53, 69;
-  --bs-light-rgb: 248, 249, 250;
+  --bs-light-rgb: 242,245,230;
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
@@ -67,8 +67,10 @@
 *,
 *::before,
 *::after {
-  box-sizing: content-box;
+  box-sizing: border-box;
   vertical-align: top;
+  margin-right: 0%;
+  margin-left: 0%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -11305,12 +11307,12 @@ p {
 }
 
 .page-section {
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
@@ -11441,7 +11443,7 @@ header.masthead .masthead-heading {
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 4.5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 0rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -11713,8 +11715,8 @@ header.masthead .masthead-heading {
   align-content: center;
 }
 .team-member img {
-  width: 18rem;
-  height: 18rem;
+  width: auto;
+  height: auto;
   align-content: center;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
@@ -11724,6 +11726,22 @@ header.masthead .masthead-heading {
   align-content: center;
 }
 
+.personal {
+  margin-bottom: 3rem;
+  text-align: left;
+  align-content: center;
+}
+.personal img {
+  width: 656px;
+  height: auto;
+  align-content: center;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+.personal h4, .personal .h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  align-content: center;
+}
 .img-brand {
   height: 2.75rem;
   align-content: center;
