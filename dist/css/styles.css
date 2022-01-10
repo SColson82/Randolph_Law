@@ -11712,6 +11712,7 @@ header.masthead .masthead-heading {
 .team-member {
   margin-bottom: 3rem;
   text-align: center;
+  margin-left: 1.5rem;
   align-content: center;
 }
 .team-member img {
