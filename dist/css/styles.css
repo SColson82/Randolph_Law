@@ -11729,13 +11729,12 @@ header.masthead .masthead-heading {
 
 .personal {
   margin-bottom: 3rem;
-  text-align: left;
+  text-align: center;
   align-content: center;
 }
 .personal img {
   width: 656px;
   height: auto;
-  
   align-content: center;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
