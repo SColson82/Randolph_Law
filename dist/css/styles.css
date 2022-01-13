@@ -159,6 +159,8 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 abbr[title],
@@ -208,9 +210,9 @@ blockquote {
   margin: 0 0 1rem;
 }
 
-b,
-strong {
+.closer {
   font-weight: bolder;
+  margin-left: 1rem;
 }
 
 small, .small {
@@ -7118,6 +7120,7 @@ textarea.form-control-lg {
 
 .align-items-center {
   align-items: center !important;
+  margin-bottom: 1rem;
 }
 
 .align-items-baseline {
@@ -11303,7 +11306,7 @@ body {
 }
 
 p {
-  line-height: 1.75;
+  line-height: 2;
 }
 
 .page-section {
@@ -11312,14 +11315,13 @@ p {
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
-.page-section h3.section-subheading, .page-section .section-subheading.h3 {
-  font-size: 1rem;
-  font-weight: 400;
+.page-section h2.section-subheading, .page-section .section-subheading.h2 {
+  font-weight: bold;
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -11745,6 +11747,24 @@ header.masthead .masthead-heading {
 }
 .img-brand {
   height: 2.75rem;
+  align-content: center;
+}
+
+.mission-statement {
+  margin-bottom: 3rem;
+  text-align: center;
+  margin-left: 1rem;
+  align-content: center;
+}
+.mission-statement img {
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  /* border: 0.5rem solid rgba(0, 0, 0, 0.1); */
+}
+.mission-statement h4, .team-member .h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
   align-content: center;
 }
 
