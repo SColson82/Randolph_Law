@@ -11718,7 +11718,7 @@ header.masthead .masthead-heading {
   align-content: center;
 }
 .team-member img {
-  width: 656px;
+  width: 100%;
   height: auto;
   align-content: center;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
@@ -11735,7 +11735,7 @@ header.masthead .masthead-heading {
   align-content: center;
 }
 .personal img {
-  width: 656px;
+  width: 100%;
   height: auto;
   align-content: center;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
