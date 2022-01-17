@@ -679,8 +679,8 @@ progress {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: calc(-1 * var(--bs-gutter-y));
-  margin-right: calc(-0.5 * var(--bs-gutter-x));
-  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  margin-right: 0;
+  margin-left: 0;
 }
 .row > * {
   flex-shrink: 0;
@@ -3571,7 +3571,7 @@ textarea.form-control-lg {
   margin: 0;
   font-size: 1rem;
   color: #212529;
-  text-align: left;
+  text-align: ;
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
@@ -4087,7 +4087,7 @@ textarea.form-control-lg {
 
 .navbar-collapse {
   flex-basis: 100%;
-  flex-grow: 1;
+  flex-grow: 0;
   align-items: center;
 }
 
