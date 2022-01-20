@@ -643,7 +643,7 @@ progress {
   width: 100%;
   padding-right: var(--bs-gutter-x, 0rem);
   padding-left: var(--bs-gutter-x, 0rem);
-  padding-top: 1.5rem;
+  padding-top: 0.5rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -11350,7 +11350,7 @@ p {
 
 #mainNav {
   padding-top: 0rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
   background-color: #212529;
 }
 #mainNav .navbar-toggler {
