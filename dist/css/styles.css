@@ -11834,3 +11834,13 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+.email-address {
+  color: #42c30df5;
+}
+
+@media (max-width: 992px) {
+  .email-address {
+    font-size: 16px;
+  }
+}
